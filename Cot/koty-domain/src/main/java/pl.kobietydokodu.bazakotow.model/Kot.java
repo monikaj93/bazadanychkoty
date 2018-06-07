@@ -12,7 +12,7 @@ public class Kot {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    Long myId;
+    Long kotId;
 
     String imie;
     Date dataUrodzenia = new Date();
@@ -21,6 +21,27 @@ public class Kot {
 
     @OneToMany(mappedBy="kot")
     private List <Zabawka> zabawki;
+
+
+    public Long getMyId() {
+        return kotId;
+    }
+
+    public void setMyId(Long myId) {
+        this.kotId = myId;
+    }
+
+    public List<Zabawka> getZabawki() {
+        return zabawki;
+    }
+
+    public void setZabawki(List<Zabawka> zabawki) {
+        this.zabawki = zabawki;
+    }
+
+    public void addZabawka(Zabawka zabawka){
+        zabawki.add(zabawka);
+    }
 
     public String getImie() {
         return imie;

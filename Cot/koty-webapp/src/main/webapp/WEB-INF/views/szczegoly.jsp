@@ -35,7 +35,7 @@
 				</tr>
 				<tr>
                 	<th>Zabawki</th>
-                	<td>${zabawka.nazwaZabawki}</td>
+                	<td><a href="<c:url value="dodajZabawke-${param.kotID}"/>" class="btn btn-primary" role="button">Dodaj Zabawke</a>${zabawka.nazwaZabawki}</td>
                 </tr>
 			</tbody>
 		</table>

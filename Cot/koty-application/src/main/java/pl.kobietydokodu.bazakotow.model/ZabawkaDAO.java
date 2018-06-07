@@ -5,5 +5,5 @@ import org.springframework.data.repository.CrudRepository;
 import java.util.List;
 
 public interface ZabawkaDAO extends CrudRepository<Zabawka, Long> {
-        public List<Zabawka> findById(int id);
+        public List<Zabawka> findByzid(int zid);
     }

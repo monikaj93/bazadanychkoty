@@ -14,10 +14,10 @@ import javax.validation.Valid;
 @Controller
 public class KotyController {
 
-    private final KotService dao;
+    private final KotDao dao;
 
     @Autowired
-    public KotyController(KotService dao) {
+    public KotyController(KotDao dao) {
         this.dao = dao;
     }
 
