@@ -35,7 +35,10 @@
 				</tr>
 				<tr>
                 	<th>Zabawki</th>
-                	<td><a href="<c:url value="dodajZabawke-${param.kotID}"/>" class="btn btn-primary" role="button">Dodaj Zabawke</a>${zabawka.nazwaZabawki}</td>
+                	<td><a href="<c:url value="dodajZabawke-${param.kotID}"/>" class="btn btn-primary" role="button">Dodaj Zabawke</a>
+                	<c:forEach var="zabawka" items="${zabawka}" >
+                        ${zabawka.nazwa}
+                    </c:forEach></td>
                 </tr>
 			</tbody>
 		</table>

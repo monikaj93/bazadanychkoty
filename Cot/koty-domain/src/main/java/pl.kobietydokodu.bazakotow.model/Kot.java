@@ -2,6 +2,7 @@ package pl.kobietydokodu.bazakotow.model;
 
 import org.hibernate.annotations.GenericGenerator;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import javax.persistence.*;
@@ -20,8 +21,15 @@ public class Kot {
     String imieOpiekuna;
 
     @OneToMany(mappedBy="kot")
-    private List <Zabawka> zabawki;
+    private List<Zabawka> zabawki = new ArrayList<>();
 
+    public Long getKotId() {
+        return kotId;
+    }
+
+    public void setKotId(Long kotId) {
+        this.kotId = kotId;
+    }
 
     public Long getMyId() {
         return kotId;
@@ -41,6 +49,7 @@ public class Kot {
 
     public void addZabawka(Zabawka zabawka){
         zabawki.add(zabawka);
+        zabawka.setKot(this);
     }
 
     public String getImie() {

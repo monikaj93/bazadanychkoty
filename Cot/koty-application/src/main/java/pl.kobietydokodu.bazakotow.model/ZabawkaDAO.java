@@ -6,5 +6,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 @Repository
 public interface ZabawkaDAO extends CrudRepository<Zabawka, Long> {
-        public List<Zabawka> findByzid(int zid);
+        public List<Zabawka> findByzid(Long zid);
+        //public List<Zabawka> findBykoteczek(Long koteczek);
     }

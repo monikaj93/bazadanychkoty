@@ -15,10 +15,12 @@ import javax.validation.Valid;
 public class KotyController {
 
     private final KotDao dao;
+    private final ZabawkaDAO zabawkadao;
 
     @Autowired
-    public KotyController(KotDao dao) {
+    public KotyController(KotDao dao, ZabawkaDAO zabawkadao) {
         this.dao = dao;
+        this.zabawkadao = zabawkadao;
     }
 
     //przekierowanie do strony na ktorej mozna dodac nowego kota
@@ -58,6 +60,7 @@ public class KotyController {
     @RequestMapping("/kot-{id}")
     public String szczegolyKota(@PathVariable("id") Long id, Model model) {
         model.addAttribute("kot", dao.findById(id).get());
+        //model.addAttribute("zabawka",zabawkadao.findBykoteczek(id));
         return "szczegoly";
     }
 

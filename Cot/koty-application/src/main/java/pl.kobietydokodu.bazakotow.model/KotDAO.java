@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface KotDao extends CrudRepository<Kot, Long> {
-    public List<Kot> findBykotId(int kotId);
+    public List<Kot> findBykotId(Long kotId);
 }

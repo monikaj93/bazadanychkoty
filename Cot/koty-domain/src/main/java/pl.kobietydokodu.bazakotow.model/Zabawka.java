@@ -13,17 +13,18 @@ public class Zabawka {
     Long zid;
 
     String nazwa;
+    //Long koteczek;
 
-    @ManyToOne
-    @JoinColumn(name = "koty_id")
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name="kotid", referencedColumnName = "kotid")
     private Kot kot;
 
 
-    public Long getId() {
+    public Long getZid() {
         return zid;
     }
 
-    public void setId(Long id) {
+    public void setZid(Long zid) {
         this.zid = zid;
     }
 

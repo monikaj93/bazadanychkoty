@@ -14,7 +14,7 @@
     <bytecodeTargetLevel>
       <module name="Cot" target="1.5" />
       <module name="koty-application" target="1.7" />
-      <module name="koty-domain" target="1.5" />
+      <module name="koty-domain" target="7" />
       <module name="koty-webapp" target="8" />
     </bytecodeTargetLevel>
   </component>
