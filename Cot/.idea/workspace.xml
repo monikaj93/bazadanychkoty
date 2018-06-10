@@ -37,38 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="szczegoly.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/views/szczegoly.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lista.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/views/lista.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="KotyController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/java/pl.kobietydokodu.bazakotow.model/KotyController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
               <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KotDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koty-application/src/main/java/pl.kobietydokodu.bazakotow.model/KotDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -82,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Zabawka.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Zabawka.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koty-domain/src/main/java/pl.kobietydokodu.bazakotow.model/Zabawka.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -94,20 +67,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZabawkiController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/java/pl.kobietydokodu.bazakotow.model/ZabawkiController.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koty-webapp/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+            <state relative-caret-position="1428">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rootApplicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/rootApplicationContext.xml">
+      <file leaf-file-name="security-context.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/resources/security-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="973">
+              <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -140,12 +131,9 @@
         <option value="$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/web.fxml" />
         <option value="$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/views/glowny.jsp" />
         <option value="$PROJECT_DIR$/koty-webapp/src/main/java/KotyController.java" />
-        <option value="$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/koty-webapp/src/main/java/pl.kobietydokodu.bazakotow.model/DodajKotaFormularz.java" />
-        <option value="$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/rootApplicationContext.xml" />
         <option value="$PROJECT_DIR$/koty-domain/pom.xml" />
         <option value="$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/views/dodaj.jsp" />
-        <option value="$PROJECT_DIR$/koty-webapp/pom.xml" />
         <option value="$PROJECT_DIR$/koty-application/src/main/java/pl.kobietydokodu.bazakotow.model/KotDAO.java" />
         <option value="$PROJECT_DIR$/koty-application/src/main/java/pl.kobietydokodu.bazakotow.model/Main.java" />
         <option value="$PROJECT_DIR$/koty-webapp/src/main/java/pl.kobietydokodu.bazakotow.model/DodajZabawkeFormularz.java" />
@@ -154,7 +142,6 @@
         <option value="$PROJECT_DIR$/koty-application/src/main/java/pl.kobietydokodu.bazakotow.model/SDKotDAO.java" />
         <option value="$PROJECT_DIR$/koty-application/src/main/java/pl.kobietydokodu.bazakotow.model/KotService.java" />
         <option value="$PROJECT_DIR$/koty-webapp/src/main/java/pl.kobietydokodu.bazakotow.model/ZabawkiController.java" />
-        <option value="$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/koty-application/pom.xml" />
         <option value="$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/views/szczegoly.jsp" />
         <option value="$PROJECT_DIR$/koty-application/src/main/java/pl.kobietydokodu.bazakotow.model/KotDao.java" />
@@ -162,6 +149,11 @@
         <option value="$PROJECT_DIR$/koty-application/src/main/java/pl.kobietydokodu.bazakotow.model/ZabawkaDAO.java" />
         <option value="$PROJECT_DIR$/koty-webapp/src/main/java/pl.kobietydokodu.bazakotow.model/KotyController.java" />
         <option value="$PROJECT_DIR$/koty-domain/src/main/java/pl.kobietydokodu.bazakotow.model/Zabawka.java" />
+        <option value="$PROJECT_DIR$/koty-webapp/pom.xml" />
+        <option value="$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/rootApplicationContext.xml" />
+        <option value="$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/koty-webapp/src/main/resources/security-context.xml" />
       </list>
     </option>
   </component>
@@ -196,7 +188,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -319,6 +311,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pl.kobietydokodu.bazakotow.model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cot" type="462c0819:PsiDirectoryNode" />
+              <item name="koty-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cot" type="b2602c69:ProjectViewProjectNode" />
@@ -504,12 +504,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.21481876" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3224401" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3224401" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.10404624" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2675906" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2675906" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -569,13 +569,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/koty-domain/src/main/java/pl.kobietydokodu.bazakotow.model/Kot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/koty-application/src/main/java/pl.kobietydokodu.bazakotow.model/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -734,24 +727,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/koty-domain/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
           <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koty-webapp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -766,20 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1701">
           <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/rootApplicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -849,6 +814,41 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koty-webapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/rootApplicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="973">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/resources/security-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
         </state>
       </provider>
     </entry>
